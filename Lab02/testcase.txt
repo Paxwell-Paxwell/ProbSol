@@ -1,0 +1,1031 @@
+30 1000
+17
+14
+20
+19
+13
+20
+18
+16
+19
+16
+10
+19
+10
+14
+20
+15
+17
+13
+16
+15
+19
+18
+11
+12
+19
+14
+10
+16
+15
+10
+F
+F
+F
+F
+F
+B
+C 245
+F
+F
+F
+C 291
+C 211
+C 261
+C 369
+C 370
+B
+F
+F
+B
+B
+B
+B
+F
+F
+B
+B
+F
+F
+F
+C 368
+F
+C 121
+F
+B
+C 202
+F
+B
+C 306
+C 322
+F
+B
+C 455
+C 182
+F
+F
+B
+F
+B
+F
+C 212
+F
+F
+F
+B
+F
+C 292
+C 104
+C 321
+F
+B
+F
+C 17
+F
+F
+B
+F
+B
+B
+B
+C 454
+B
+C 122
+F
+C 359
+F
+F
+F
+F
+F
+F
+F
+C 278
+F
+F
+B
+F
+C 156
+F
+C 341
+F
+B
+B
+F
+B
+B
+B
+B
+F
+B
+B
+F
+B
+F
+B
+C 319
+F
+B
+C 323
+B
+F
+F
+F
+F
+B
+C 246
+F
+F
+F
+F
+C 371
+B
+B
+C 210
+F
+B
+B
+C 71
+F
+F
+B
+F
+B
+F
+F
+F
+B
+B
+C 456
+C 262
+F
+F
+F
+B
+F
+B
+F
+B
+F
+F
+B
+F
+F
+B
+B
+B
+C 179
+F
+F
+B
+C 52
+F
+F
+F
+C 177
+B
+B
+B
+F
+B
+B
+F
+F
+F
+B
+B
+F
+B
+B
+C 210
+C 241
+F
+B
+B
+C 83
+F
+B
+B
+F
+B
+C 120
+F
+B
+B
+C 103
+B
+F
+F
+F
+F
+B
+B
+F
+C 31
+B
+B
+F
+C 173
+C 226
+B
+C 281
+C 260
+F
+F
+F
+F
+F
+F
+B
+B
+C 53
+F
+F
+F
+B
+B
+B
+F
+C 56
+B
+B
+B
+F
+B
+F
+F
+F
+B
+F
+F
+B
+B
+F
+F
+B
+F
+B
+C 465
+F
+C 17
+B
+F
+B
+F
+B
+F
+F
+F
+F
+F
+F
+B
+F
+F
+F
+F
+F
+C 424
+F
+B
+C 201
+F
+F
+F
+C 305
+B
+C 326
+B
+B
+F
+F
+F
+C 251
+F
+C 415
+F
+F
+F
+F
+C 216
+B
+B
+B
+B
+F
+C 307
+B
+F
+F
+F
+C 203
+C 55
+B
+F
+F
+B
+F
+F
+B
+F
+F
+B
+F
+F
+B
+F
+B
+B
+F
+C 32
+B
+B
+B
+B
+F
+F
+C 293
+F
+F
+B
+F
+C 6
+B
+F
+F
+F
+C 440
+C 70
+B
+C 265
+B
+B
+F
+F
+F
+C 120
+B
+C 204
+F
+B
+C 423
+B
+C 400
+C 282
+B
+B
+F
+C 74
+F
+B
+B
+B
+B
+B
+F
+F
+F
+B
+B
+F
+F
+F
+C 172
+C 290
+F
+B
+C 175
+F
+C 418
+B
+F
+C 289
+F
+C 70
+C 414
+B
+F
+F
+C 463
+C 33
+B
+F
+B
+F
+F
+C 358
+F
+C 462
+F
+F
+B
+B
+F
+C 340
+B
+F
+F
+B
+B
+F
+B
+F
+B
+B
+B
+C 441
+F
+B
+B
+B
+B
+F
+B
+B
+C 69
+F
+F
+F
+F
+B
+F
+B
+B
+B
+B
+B
+C 255
+B
+B
+C 318
+B
+F
+F
+B
+B
+C 439
+F
+C 462
+F
+B
+B
+B
+F
+B
+C 457
+F
+F
+C 253
+B
+B
+C 18
+F
+B
+C 425
+B
+F
+B
+B
+F
+F
+B
+C 157
+F
+B
+F
+B
+B
+B
+F
+F
+B
+F
+F
+F
+B
+F
+F
+C 460
+C 310
+F
+F
+B
+F
+B
+B
+B
+B
+C 69
+B
+F
+B
+B
+B
+F
+B
+F
+B
+B
+F
+C 454
+F
+B
+B
+B
+B
+F
+C 420
+B
+F
+B
+F
+B
+B
+C 57
+F
+B
+F
+F
+B
+B
+F
+C 174
+C 100
+C 171
+F
+F
+F
+F
+B
+B
+B
+F
+C 305
+B
+C 226
+B
+B
+F
+F
+F
+B
+F
+F
+B
+B
+F
+F
+C 168
+F
+C 105
+F
+C 19
+C 83
+B
+C 159
+F
+B
+F
+F
+F
+B
+F
+C 318
+F
+F
+C 158
+B
+B
+F
+F
+B
+B
+F
+F
+B
+C 419
+F
+B
+B
+B
+B
+B
+F
+C 31
+F
+F
+F
+F
+F
+B
+F
+B
+B
+F
+B
+F
+F
+F
+F
+B
+B
+B
+C 423
+B
+B
+B
+C 67
+F
+B
+F
+B
+B
+B
+F
+C 267
+F
+C 328
+C 157
+F
+B
+F
+B
+B
+B
+F
+F
+F
+C 20
+F
+C 59
+C 35
+C 183
+F
+B
+B
+F
+B
+F
+B
+F
+F
+C 107
+B
+B
+C 399
+B
+F
+F
+B
+B
+F
+B
+F
+F
+F
+F
+F
+F
+B
+C 33
+B
+C 315
+F
+B
+B
+F
+C 166
+F
+F
+B
+F
+F
+F
+C 138
+F
+C 158
+C 185
+F
+B
+B
+F
+C 137
+B
+F
+B
+B
+C 33
+B
+B
+F
+F
+F
+F
+F
+B
+B
+B
+F
+B
+B
+C 185
+F
+B
+B
+B
+F
+C 186
+F
+C 140
+B
+F
+F
+C 124
+C 209
+B
+F
+F
+C 120
+F
+F
+F
+F
+F
+B
+F
+B
+C 225
+B
+F
+C 296
+C 460
+B
+B
+B
+C 241
+F
+B
+B
+F
+B
+F
+C 329
+B
+C 197
+F
+F
+F
+B
+B
+B
+F
+F
+C 142
+C 279
+F
+C 125
+F
+F
+B
+C 305
+F
+F
+C 459
+C 224
+C 229
+B
+C 154
+F
+F
+C 36
+C 314
+F
+B
+F
+B
+C 99
+F
+B
+F
+F
+F
+B
+B
+C 382
+C 277
+C 438
+C 185
+F
+C 229
+C 225
+B
+F
+F
+F
+B
+F
+F
+C 37
+B
+C 207
+C 250
+F
+F
+F
+F
+F
+B
+B
+B
+B
+B
+F
+B
+F
+B
+F
+C 51
+B
+B
+F
+C 372
+F
+B
+C 329
+F
+B
+F
+F
+C 223
+C 394
+B
+B
+B
+F
+F
+F
+C 156
+F
+C 311
+B
+C 83
+F
+C 373
+C 287
+F
+F
+B
+B
+F
+C 381
+B
+B
+F
+C 276
+B
+B
+F
+F
+F
+F
+B
+B
+B
+B
+B
+B
+B
+B
+F
+C 285
+F
+B
+F
+F
+F
+B
+F
+C 75
+B
+F
+F
+B
+B
+B
+C 269
+F
+C 97
+F
+B
+C 26
+B
+F
+F
+F
+F
+B
+C 311
+C 28
+B
+F
+C 22
+C 297
+B
+B
+B
+C 60
+B
+F
+F
+F
+C 115
+F
+C 84
+C 205
+F
+B
+B
+F
+F
+F
+F
+F
+C 393
+B
+F
+C 462
+F
+C 85
+C 401
+F
+B
+B
+B
+F
+B
+B
+B
+B
+C 37
+C 392
+F
+B
+C 86
+F
+C 391
+B
+C 282
+F
+B
+B
+C 425
+B
+F
+B
+F
+C 271
+B
+B
+F
+F
+F
+B
+B
+C 88
+F
+B
+F
+F
+F
+F
+B
+B
+B
+B
+B
+F
+F
+B
+B
+F
+F
+C 188
+F
+B
+F
+F
+B
+F
+F
+F
+C 230
