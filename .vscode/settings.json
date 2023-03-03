@@ -2,6 +2,13 @@
   "files.associations": {
     "iostream": "cpp",
     "ios": "cpp",
-    "queue": "cpp"
+    "queue": "cpp",
+    "random": "cpp",
+    "ratio": "cpp",
+    "__mutex_base": "cpp",
+    "chrono": "cpp",
+    "vector": "cpp",
+    "unordered_map": "cpp",
+    "ostream": "cpp"
   }
 }
