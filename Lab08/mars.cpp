@@ -8,7 +8,7 @@ unordered_map<char, int> letterPositions = {
         {'P', 15}, {'Q', 16}, {'R', 17}, {'S', 18}, {'T', 19},
         {'U', 20}, {'V', 21}, {'W', 22}, {'X', 23}, {'Y', 24},
         {'Z', 25}
-    };
+};
 
 int shortestPath(char start, char end) {
     int startIndex = letterPositions[start];
@@ -18,11 +18,10 @@ int shortestPath(char start, char end) {
     return clockwiseDist;
 }
 
+int memo[26][26][1001];
+
 //recursive function
-//A[i] is a minimum drop of water required to get the text from 1 to i
-//a[i] is a minimum drop to reach char i for wheel A
-//b[i] is a minimum drop to reach char i for wheel B
-//A[i] = min(a[i] + A[i-1], b[i] + A[i-1])
+//A[i, A, B, require] = min(A[i+1, temp[i], B, require + requireA], A[i+1, A, temp[i], require + requireB)
 
 void debug(vector<int> a) {
     cout << "Debug: ";
@@ -33,68 +32,29 @@ void debug(vector<int> a) {
 }
 
 int Min_water(string temp, int idk, char WheelA, char WheelB, int require) {
-    cout << "require: " << require << "\n";
-    int requiredWaterA, requiredWaterB, n = temp.size();
-    //vector<int> saveWater_Drop(n);
-    requiredWaterA = shortestPath(WheelA, temp[0]);
-    requiredWaterB = shortestPath(WheelB, temp[0]);
-    for (int i = idk; i < n; i++) {
-        cout << WheelA << " " << WheelB << " " << temp[i] << "\n";
-        requiredWaterA = shortestPath(WheelA, temp[i]);
-        requiredWaterB = shortestPath(WheelB, temp[i]);
-        cout << "A: " << requiredWaterA << " B: " << requiredWaterB << "\n";
-        //saveWater_Drop[i] = min(requiredWaterA + saveWater_Drop[i - 1], requiredWaterB + saveWater_Drop[i - 1]);
-        if (requiredWaterA == requiredWaterB) {
-            if (WheelA == WheelB) {
-                require += requiredWaterA;
-                //saveWater_Drop[i] = requiredWaterA + saveWater_Drop[i - 1];
-                WheelA = temp[i];
-            }
-            else {
-                cout << "\nA path\n";
-                int temp1 = Min_water(temp, i + 1, temp[i], WheelB, requiredWaterA + require);
-                cout << "\nB path\n";
-                int temp2 = Min_water(temp, i + 1, WheelA, temp[i], requiredWaterB + require);
-                cout << "\nback: " << temp1 << " " << temp2 << "\n";
-                if (temp1 == temp2) {
-                    require += requiredWaterA;
-                    WheelA = temp[i];
-                }
-                else if (temp1 < temp2) {
-                    require += requiredWaterA;
-                    WheelA = temp[i];
-                }
-                else if (temp1 > temp2) {
-                    require += requiredWaterB;
-                    WheelB = temp[i];
-                }
-                //saveWater_Drop[i] = requiredWaterB + saveWater_Drop[i - 1];                
-            }
-        }
-        else if (requiredWaterA < requiredWaterB) {
-            require += requiredWaterA;
-            //saveWater_Drop[i] = requiredWaterA + saveWater_Drop[i - 1];
-            WheelA = temp[i];
-        }
-        else if (requiredWaterA > requiredWaterB) {
-            require += requiredWaterB;
-            //saveWater_Drop[i] = requiredWaterB + saveWater_Drop[i - 1];
-            WheelB = temp[i];
-        }
-        cout << "require: " << require << "\n";
+    if (idk == temp.size()) {
+        return require;
     }
-    cout << "return: " << require << " Add " << min(requiredWaterA, requiredWaterB) << "\n";
-    return require;
-    //return saveWater_Drop[n - 1];
+    if (memo[letterPositions[WheelA]][letterPositions[WheelB]][idk] != -1) {
+        return require + memo[letterPositions[WheelA]][letterPositions[WheelB]][idk];
+    }
+    int requiredWaterA, requiredWaterB, n = temp.size();
+    requiredWaterA = shortestPath(WheelA, temp[idk]);
+    requiredWaterB = shortestPath(WheelB, temp[idk]);
+    int ans = min(Min_water(temp, idk + 1, temp[idk], WheelB, requiredWaterA), Min_water(temp, idk + 1, WheelA, temp[idk], requiredWaterB));
+    memo[letterPositions[WheelA]][letterPositions[WheelB]][idk] = ans;
+    return ans + require;
 }
 
 int main() {
-    int t;
+    int t, result;
     cin >> t;
-    for (int i=0; i<t; i++) {
+    while (t--) {
         string x;
         cin >> x;
-        cout << Min_water(x, 0, 'A', 'A', 0) << "\n";
+        memset(memo, -1, sizeof memo);
+        result = Min_water(x, 0, 'A', 'A', 0);
+        cout << result << "\n";
     }
     return 0;
 }
